@@ -1,0 +1,7 @@
+services:
+  linux:
+    build: .
+    volumes:
+      - ./:/workdir
+    tty: true
+    stdin_open: true
